@@ -39,7 +39,7 @@ $(function () {
                 }
                 layer.msg(res.message,
                     {
-                        time: 1000
+                        time: 800
                     },
                     function () {
                         $("#tologin").click()
@@ -65,7 +65,7 @@ $(function () {
                 // 登录成功后
                 layer.msg(res.message,
                     {
-                        time: 1000
+                        time: 300
                     },
                     function () {
                         // 跳转后台主页
